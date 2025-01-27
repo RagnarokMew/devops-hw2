@@ -1,0 +1,11 @@
+- name: Update system
+  community.general.pacman:
+    upgrade: yes
+
+- name: Install dependencies
+  community.general.pacman:
+    name: "{{ item }}"
+    state: present
+    loop:
+      - docker
+      - docker-compose
