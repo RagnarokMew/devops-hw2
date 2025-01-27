@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-Using an
+Using an ansible playbook and docker-compose an nginx webserver is deployed inside a docker sharing the webpage folder so that the server doesn't (have to) restart when changes are made to the html.
 
 ## Requirements
 
