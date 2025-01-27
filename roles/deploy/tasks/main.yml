@@ -1,2 +1,2 @@
-- name: Start cointainers
+- name: Start containers
   shell: docker-compose up -d
